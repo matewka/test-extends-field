@@ -1,0 +1,11 @@
+{
+  "name": "test-pkg",
+  "version": "1.0.0",
+  "exports": {
+    ".": {
+      "sass": "./dist/index.scss",
+      "default": "./dist/index.scss"
+    },
+    "./": "./dist/"
+  }
+}
